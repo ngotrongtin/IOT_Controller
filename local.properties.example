@@ -1,0 +1,13 @@
+## This file is a template for local.properties
+## Copy this file to local.properties and fill in your MQTT broker details
+## DO NOT commit local.properties to version control
+
+# Location of the Android SDK
+sdk.dir=YOUR_SDK_PATH
+
+# MQTT Broker Configuration
+MQTT_BROKER_URI=ssl://your-broker.hivemq.cloud:8883
+MQTT_USERNAME=your_username
+MQTT_PASSWORD=your_password
+MQTT_TOPIC_STATE=lightbulb
+
