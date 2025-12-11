@@ -15,6 +15,7 @@ sealed class Screen(val route: String, val title: String, val icon: ImageVector)
     object Devices : Screen("devices", "Devices", Icons.Default.Devices)
     object Settings : Screen("settings", "Settings", Icons.Default.Settings)
     object Profile : Screen("profile", "Profile", Icons.Default.Person)
+    object Login : Screen("login", "Login", Icons.Default.Person)
 }
 
 /**
@@ -26,4 +27,3 @@ val bottomNavigationItems = listOf(
     Screen.Settings,
     Screen.Profile
 )
-
